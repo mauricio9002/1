@@ -1,0 +1,23 @@
+.convite{
+    background: linear-gradient(#6495ed80,#6495ed80);
+    text-align: left;
+    width: 63%;
+    height: auto;
+    font-size:25px;
+    padding: 20px;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 15px;
+    margin: 0 auto /* cenralizar horizontalmente*/;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.subtitulo-convite, textarea{
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 100%; /* alterar para preencher a largura do formulario*/
+    margin-bottom: 15px; /* aumentar o espaçamento entre os camps*/
+    padding: 10px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    box-sizing: border-box;/*garante que o paddimg não aumenta a largura do input*/
+}
